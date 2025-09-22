@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title> 1 - Basic of HTML</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Laboratories task №1 - Form registration</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Start</a></li>
+        <li><a href="../about.html">My self</a></li>
+        <li><a href="../practicals/practical1.html">Practice work</a></li>
+        <li><a href="lab1.html">Laboratories task</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form action="https://webhook.site/0c98b062-d8a9-4e4f-9ca9-f0917ce69560" method="post">
+      <label for="fname">Name:</label>
+      <input type="text" id="fname" name="first_name" required><br>
+      <label for="lname">Surname:</label>
+      <input type="text" id="lname" name="last_name" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="pwd">Password:</label>
+      <input type="password" id="pwd" name="password" required><br>
+      <label for="conf_pwd">Retype password:</label>
+      <input type="password" id="conf_pwd" name="confirm_password" required><br>
+      <label for="dob">Date of birth:</label>
+      <input type="date" id="dob" name="birthdate"><br>
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value="">Choose gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Somethin else</option>
+      </select><br>
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+  <footer>
+    <p>Contacts: alekskojem@gmail.com | GitHub: <a href="https://github.com/Alekskojem/Web-technology-Web-design">Alekskojem</a></p>
+    <p>&copy;2025</p>
+  </footer>
+</body>
+</html>
