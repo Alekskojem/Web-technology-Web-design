@@ -54,3 +54,35 @@ th {
   background-color: #492a66;
   color: white;
 }
+form {
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    border-radius: 15px; /* Тут задається скруглення кутів */
+  }
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"],
+  form textarea {
+    width: calc(100% - 20px); /* Враховуємо padding */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 15px; /* Скруглення для полів вводу */
+  }
+  form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  form button:hover {
+    background-color: #492a66;
+  }
